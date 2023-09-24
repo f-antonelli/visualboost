@@ -1,0 +1,18 @@
+.container_navbar {
+  display: flex;
+  align-items: center;
+}
+
+.container_navbar .nav_list{
+  display: flex;
+  list-style: none;
+}
+
+.container_navbar .nav_list .nav_item{
+  padding: 0 .5rem;
+}
+
+.container_navbar .nav_list .nav_item a{
+  color: var(--white);
+  text-decoration: none;
+}
