@@ -119,7 +119,7 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .wrapper .hero_img_2 {
     height: 30%;
   }

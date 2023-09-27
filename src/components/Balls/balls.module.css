@@ -1,0 +1,98 @@
+.container_balls {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 30vh;
+  width: 100%;
+  padding: 0 2rem;
+  background-color: var(--main-violet);
+  overflow: hidden;
+}
+
+.container_balls h3 {
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 900;
+  color: var(--white);
+  text-shadow: 4px 4px 2px rgba(0,0,0,0.4);
+}
+
+.container_balls .ball_1 {
+  position: absolute;
+  top: -1rem;
+  left: 0.5rem;
+  background-image: url("../../assets/balls/violet-ball_1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 7rem;
+  height: 7rem;
+}
+
+.container_balls .ball_2 {
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0.5rem;
+  background-image: url("../../assets/balls/blue-ball_1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 5rem;
+  height: 5rem;
+}
+
+.container_balls .ball_3 {
+  position: absolute;
+  left: 35%;
+  bottom: 0;
+  background-image: url("../../assets/balls/violet-ball_2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 5rem;
+  height: 5rem;
+}
+
+.container_balls .ball_4 {
+  position: absolute;
+  right: 15%;
+  bottom: 0rem;
+  background-image: url("../../assets/balls/violet-ball_2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 5rem;
+  height: 5rem;
+}
+
+.container_balls .ball_5 {
+  position: absolute;
+  left: 50%;
+  top: -1rem;
+  background-image: url("../../assets/balls/blue-ball_2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 6rem;
+  height: 6rem;
+}
+
+.container_balls .ball_6 {
+  position: absolute;
+  top: 0.5rem;
+  right: -0.5rem;
+  background-image: url("../../assets/balls/blue-ball_3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 5rem;
+  height: 5rem;
+}
+
+.container_balls .ball_7 {
+  position: absolute;
+  bottom: 0.5rem;
+  right: -0.5rem;
+  background-image: url("../../assets/balls/violet-ball_3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 5rem;
+  height: 5rem;
+}
