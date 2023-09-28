@@ -18,7 +18,7 @@ const Hero = () => {
   };
 
   return (
-    <div className={styles.wrapper}>
+    <section className={styles.wrapper}>
       {isChecked && (
         <>
           <div data-aos="fade-right" className={`${styles.hero_img_1}`}></div>
@@ -38,7 +38,7 @@ const Hero = () => {
           </label>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

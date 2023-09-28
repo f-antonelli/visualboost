@@ -10,5 +10,6 @@
   --black: #000000;
   --main-blue: #286DF8;
   --main-violet: #5F1ED1;
-  --btn-violet: #4B3DE0;
+  --btn-violet: #4B3DE0; /*MODIFICAR POR SWITCH_COLOR*/
+  --btn-text: #6913CB;
 }
