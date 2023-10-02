@@ -1,4 +1,5 @@
 import Balls from "./components/Balls/Balls";
+import Copyright from "./components/Copyright/Copyright";
 import Form from "./components/Form/Form";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
@@ -14,6 +15,7 @@ const App = () => {
         <Services />
         <Form />
       </main>
+      <Copyright />
     </>
   );
 };
