@@ -1,0 +1,213 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  background-color: var(--black);
+  min-height: 80vh;
+  overflow: hidden;
+}
+
+.wrapper .img_left {
+  z-index: 5;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+  height: 400px;
+  background-image: url("../../assets/history/fede_lola.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper .img_right {
+  z-index: 5;
+  position: absolute;
+  bottom: 0;
+  right: -1rem;
+  width: 200px;
+  height: 300px;
+  background-image: url("../../assets/history/nicki.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper .container_history {
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  max-width: 88rem;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  color: var(--white);
+}
+
+.wrapper .container_history h3 {
+  font-size: 2rem;
+  color: var(--main-blue);
+}
+
+.wrapper .container_history .history_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper .container_history .history_content .history_left {
+  display: flex;
+  flex: 1;
+  padding: 1rem 2rem 2rem 0;
+  width: 100%;
+}
+
+.wrapper .container_history .history_content .history_left p {
+  font-weight: 300;
+}
+
+.wrapper .container_history .history_content .history_right {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 1rem 0 2rem 2rem;
+  width: 100%;
+}
+
+.wrapper .container_history .history_content .history_right .history_item {
+  padding-bottom: 1rem;
+}
+
+.wrapper .container_history .history_content .history_right .history_item p {
+  font-weight: 300;
+}
+
+.wrapper
+  .container_history
+  .history_content
+  .history_right
+  .history_item
+  p
+  span {
+  font-weight: 600;
+}
+
+.wrapper .ball_1 {
+  position: absolute;
+  top: 0;
+  left: -1rem;
+  background-image: url("../../assets/history/ball_blue_left.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 5rem;
+  height: 5rem;
+}
+
+.wrapper .ball_2 {
+  position: absolute;
+  bottom: 0;
+  left: -1rem;
+  background-image: url("../../assets/history/ball_violet_bottom.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 5rem;
+  height: 5rem;
+}
+
+.wrapper .ball_3 {
+  position: absolute;
+  bottom: 3rem;
+  right: 45%;
+  background-image: url("../../assets/history/ball_blue_center.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 5rem;
+  height: 5rem;
+}
+
+.wrapper .ball_4 {
+  position: absolute;
+  bottom: 50%;
+  left: 40%;
+  background-image: url("../../assets/history/ball_blue_center.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 5rem;
+  height: 5rem;
+}
+
+.wrapper .ball_5 {
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  background-image: url("../../assets/history/ball_violet_top.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 5rem;
+  height: 5rem;
+}
+
+.wrapper .ball_6 {
+  position: absolute;
+  top: 3rem;
+  right: 0;
+  background-image: url("../../assets/history/ball_blue_right.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 5rem;
+  height: 5rem;
+}
+
+.wrapper .ball_7 {
+  position: absolute;
+  top: 45%;
+  right: -2rem;
+  background-image: url("../../assets/history/ball_blue_right.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 6rem;
+  height: 6rem;
+}
+
+.wrapper .ball_8 {
+  position: absolute;
+  bottom: 5rem;
+  right: 15%;
+  background-image: url("../../assets/history/ball_violet_bottom.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 6rem;
+  height: 6rem;
+}
+
+@media (max-width: 1140px) {
+  .wrapper {
+    min-height: 100vh;
+  }
+
+  .wrapper .container_history .history_content {
+    flex-direction: column;
+  }
+  .wrapper .container_history .history_content .history_left {
+    padding: 1rem 0;
+  }
+  .wrapper .container_history .history_content .history_right {
+    padding: 1rem 0;
+  }
+}
+
+@media (max-width: 740px) {
+  .wrapper {
+    min-height: 120vh;
+  }
+
+  .wrapper .container_history h3 {
+    text-align: center;
+  }
+
+  .wrapper .container_history .history_content .history_left {
+    text-align: center;
+  }
+
+  .wrapper .img_right {
+    display: none;
+  }
+}

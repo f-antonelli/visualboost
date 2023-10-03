@@ -16,7 +16,7 @@ const ContactForm = () => {
       onSubmit={() => console.log("enviar")}
     >
       {() => (
-        <Form className={styles.container_form}>
+        <Form id="contact" className={styles.container_form}>
           <TextField
             id="standard-basic"
             label="Nombre"

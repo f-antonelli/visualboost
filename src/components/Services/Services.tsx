@@ -14,7 +14,7 @@ const Services = () => {
         data-aos-delay="1000"
         className={styles.img_right}
       ></div>
-      <div className={styles.container_services}>
+      <div id="services" className={styles.container_services}>
         <h3 className={styles.services_title}>Servicios</h3>
         <div className={styles.services_list}>
           {services.map(({ title, description, buttonName }) => (
