@@ -9,7 +9,7 @@ const Copyright = () => {
         <ul className={styles.social_medias}>
           {socialMedias.map(({ name, img, to }) => (
             <li key={name}>
-              <a href={to}>
+              <a href={to} target="_BLANK">
                 <img src={img} alt={name} />
               </a>
             </li>

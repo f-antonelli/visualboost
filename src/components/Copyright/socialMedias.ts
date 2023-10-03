@@ -12,16 +12,16 @@ export const socialMedias: SocialMedias[] = [
   {
     name: 'Instagram',
     img: instagram,
-    to: ''
+    to: 'https://www.instagram.com/_visualboost'
   },
   {
     name: 'Tiktok',
     img: tiktok,
-    to: ''
+    to: 'https://www.tiktok.com/@_visualboost'
   },
   {
     name: 'Behance',
     img: behance,
-    to: ''
+    to: 'https://www.behance.net/visualboost1'
   }
 ];

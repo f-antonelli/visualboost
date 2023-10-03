@@ -7,7 +7,9 @@ const Header = () => {
     <header className={styles.wrapper}>
       <div className={styles.container_header}>
         <div className={styles.box_img}>
-          <img src={logo} alt="logo" />
+          <a href="/">
+            <img src={logo} alt="logo" />
+          </a>
         </div>
         <Navbar />
       </div>
