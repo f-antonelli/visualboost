@@ -1,4 +1,4 @@
-import Balls from "./components/Balls/Balls";
+import Slogan from "./components/Balls/Slogan";
 import Copyright from "./components/Copyright/Copyright";
 import Form from "./components/Form/Form";
 import Header from "./components/Header/Header";
@@ -12,7 +12,7 @@ const App = () => {
       <Header />
       <main>
         <Hero />
-        <Balls />
+        <Slogan />
         <Services />
         <History />
         <Form />

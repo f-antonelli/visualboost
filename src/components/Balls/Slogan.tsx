@@ -1,4 +1,4 @@
-import styles from "./balls.module.css";
+import styles from "./slogan.module.css";
 
 const itemsSection = [
   "DISEÑO WEB",
@@ -8,7 +8,7 @@ const itemsSection = [
   "VISUAL BOOST",
 ];
 
-const Balls = () => {
+const Slogan = () => {
   return (
     <section className={styles.wrapper}>
       <div data-aos="fade-down" className={styles.ball_1}></div>
@@ -30,4 +30,4 @@ const Balls = () => {
   );
 };
 
-export default Balls;
+export default Slogan;
